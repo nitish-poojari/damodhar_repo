@@ -10,4 +10,4 @@
             }
         }
         const pattern= showPattern(5)
-        document.getElementById('main').innerHTML=pattern
+        document.getElementById('twelve').innerHTML=pattern

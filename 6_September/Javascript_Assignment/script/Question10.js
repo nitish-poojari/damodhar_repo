@@ -8,5 +8,5 @@
             }
             // const number_check=odd_even(11)
             const number_check= odd_even(100)
-            document.getElementById('main').innerHTML=number_check
+            document.getElementById('ten').innerHTML=number_check
             

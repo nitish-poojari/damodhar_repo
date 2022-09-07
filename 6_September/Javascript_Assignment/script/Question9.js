@@ -28,6 +28,6 @@
             // check_number(30)
             // check_number(11)
             const check1=check_number(9)
-            document.getElementById('main').innerHTML=check1
+            document.getElementById('nine').innerHTML=check1
             
 

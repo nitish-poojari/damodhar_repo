@@ -12,4 +12,4 @@
         return largest
             }
         const greater=max_value();
-        document.getElementById('main').innerHTML=greater
+        document.getElementById('seven').innerHTML=greater

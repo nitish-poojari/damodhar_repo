@@ -11,4 +11,4 @@
         return minimum;
             }
         const small_value= min_value()
-        document.getElementById('main').innerHTML=small_value
+        document.getElementById('eight').innerHTML=small_value

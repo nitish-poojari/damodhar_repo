@@ -30,4 +30,4 @@
             }   
         }
         const grade= show_grade();
-        document.getElementById('main').innerHTML=grade
+        document.getElementById('thirteen').innerHTML=grade

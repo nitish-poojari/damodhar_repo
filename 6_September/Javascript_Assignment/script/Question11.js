@@ -9,4 +9,4 @@ function multiples_of(num){
     return sum  
 }
 const all_sum= multiples_of(10)
-document.getElementById('main').innerHTML=all_sum
+document.getElementById('eleven').innerHTML=all_sum
