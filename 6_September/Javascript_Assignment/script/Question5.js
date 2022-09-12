@@ -3,6 +3,5 @@
                 age_in_days = age_in_year * 365
                 document.getElementById('fifth').innerHTML=age_in_days
             }
-            calcAge(65)
-            calcAge(0)
-            calcAge(20)
+           
+            

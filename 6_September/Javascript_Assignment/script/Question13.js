@@ -18,16 +18,16 @@
             }
             console.log("Average = ",avg);
             if(avg==91 && avg<=100){
-                return "A Grade"
+                document.getElementById('thirteen').innerHTML="A Grade"
             }
             else if(avg==81 && avg<=89){
-                return "B Grade"
+                document.getElementById('thirteen').innerHTML= "B Grade"
             }
             else if(avg==71 && avg<=79){
-                return "C Grade"
+                document.getElementById('thirteen').innerHTML="C Grade"
             }else{
-                return "D Grade"
+                document.getElementById('thirteen').innerHTML="D Grade"
             }   
         }
-        const grade= show_grade();
-        document.getElementById('thirteen').innerHTML=grade
+        
+      

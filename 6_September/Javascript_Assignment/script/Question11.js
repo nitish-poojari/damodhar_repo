@@ -6,7 +6,6 @@ function multiples_of(num){
             sum=sum+i
         }       
     } 
-    return sum  
+    document.getElementById('eleven').innerHTML= sum  
 }
-const all_sum= multiples_of(10)
-document.getElementById('eleven').innerHTML=all_sum
+

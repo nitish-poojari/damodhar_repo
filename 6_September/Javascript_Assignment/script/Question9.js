@@ -8,26 +8,22 @@
 
             function check_number(num){
                 if(num%3==0){
-                    return "Fizz"
+                    document.getElementById('nine').innerHTML="Fizz"
                 }
                 else if(num%5==0){
-                    return "Buzz"
+                    document.getElementById('nine').innerHTML="Buzz"
                 }
                 else if(num%3 ==0 && num%5 ==0){
-                    return "FizzBuzz"
+                    document.getElementById('nine').innerHTML= "FizzBuzz"
                 }
                 else if(num%3 !==0 && num%5 !==0){
-                    return num
+                    document.getElementById('nine').innerHTML= num
                 }
                 else{
-                    return "Nan Not a Number"
+                    document.getElementById('nine').innerHTML= "Nan Not a Number"
                 }
 
             }
-            // check_number(10)
-            // check_number(30)
-            // check_number(11)
-            const check1=check_number(9)
-            document.getElementById('nine').innerHTML=check1
+          
             
 

@@ -8,8 +8,7 @@
                 largest = numbers[i];
             }
         }
-        // console.log(largest);
-        return largest
+        document.getElementById('seven').innerHTML= largest
             }
-        const greater=max_value();
-        document.getElementById('seven').innerHTML=greater
+        // const greater=max_value();
+        // document.getElementById('seven').innerHTML=greater

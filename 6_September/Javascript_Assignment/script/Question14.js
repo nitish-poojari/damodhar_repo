@@ -14,13 +14,7 @@ function showPrimeNumbers(b){
             }
         }
         if (flag == 1)
-            // prime=i;
             document.write(`Prime : ${i} <br>`);
-        //    tag.appendChild(prime)
-        //     flag1.appendChild(tag);
+  
     }
 }
-
-// showPrimeNumbers(20)
-// const flag1= showPrimeNumbers(20)
-// document.getElementById("fourteen").innerHTML=flag1

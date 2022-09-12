@@ -8,6 +8,6 @@
             document.getElementById('sixth').innerHTML=n1
             document.getElementById('sixth1').innerHTML=n2
         }
-        Swap_number(10,20)
+      
         
         
