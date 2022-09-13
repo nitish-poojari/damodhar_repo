@@ -9,7 +9,6 @@ function change_element(list, char) {
         }
     }
     return (list1);
-    // console.log(list1)
 }
 const change = change_element(list1, 'b');
 (_a = document.getElementById("thirteen")) === null || _a === void 0 ? void 0 : _a.innerHTML = change;

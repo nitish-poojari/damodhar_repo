@@ -1,12 +1,12 @@
 "use strict";
 var _a;
 function Pangram(str) {
-    let alfa = 'abcdefghijklmnopqrstuvwxyz';
+    let main_str = 'abcdefghijklmnopqrstuvwxyz';
     str = str.toLowerCase();
     let count = 0;
-    for (let i = 0; i < alfa.length; i++) {
+    for (let i = 0; i < main_str.length; i++) {
         for (let j = 0; j < str.length; j++) {
-            if (alfa.charAt(i) == str.charAt(j)) {
+            if (main_str.charAt(i) == str.charAt(j)) {
                 count += 1;
                 break;
             }

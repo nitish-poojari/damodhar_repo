@@ -17,9 +17,6 @@ class MyClass implements Params{
  }
 const obj=new MyClass();
 const Obj1=new MyClass();
-// nObj.firstParam='first';
-// nObj.secondParam='Second';
-// obj.myFunc();
 const main:any=obj.myFunc(Obj1);
 document.getElementById("second").innerHTML=main
 

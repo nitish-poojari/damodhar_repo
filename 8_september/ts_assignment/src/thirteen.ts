@@ -8,7 +8,6 @@ function change_element(list:any,char?:string){
         }
     }
     return (list1)
-    // console.log(list1)
 }
 const change=change_element(list1,'b')
 document.getElementById("thirteen")?.innerHTML=change

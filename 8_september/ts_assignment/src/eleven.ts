@@ -1,6 +1,5 @@
 // 11)Write a program to Interchange First and Last Element of a List
 const list:any=["Ram",1,2,3,"sham"]
-// console.log("before swap",list)
 function interchange(list:any){
 let temp=list[0]
 list[0]=list[list.length-1]

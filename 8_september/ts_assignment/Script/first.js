@@ -33,6 +33,3 @@ numberAry.add(3);
 numberAry.remove(2);
 const num = numberAry.getValues();
 document.getElementById("first1").innerHTML = num;
-// const booleanAry = new MyArray()
-// numberAry.add(true)
-// numberAry.add(false)
