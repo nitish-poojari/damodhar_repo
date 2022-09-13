@@ -1,0 +1,15 @@
+.info_img {
+    height: 400px;
+    width: 500px;
+}
+
+.info_img img {
+    border-radius: 20px;
+}
+
+.main_products img {
+    width: 270px;
+    height: 270px;
+}
+
+
